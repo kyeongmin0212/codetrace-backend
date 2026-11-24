@@ -1,4 +1,3 @@
-[codetrace-backend README_보완1.md](https://github.com/user-attachments/files/35313430/codetrace-backend.README_.1.md)
 <div align="center">
 
 # Code Trace — Backend
