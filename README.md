@@ -1,3 +1,4 @@
+[codetrace-backend README_보완1.md](https://github.com/user-attachments/files/35313430/codetrace-backend.README_.1.md)
 <div align="center">
 
 # Code Trace — Backend
@@ -8,11 +9,34 @@
 **수정 시 영향 범위**(구문 트리 파싱)를 보여준다.
 
 [![LikeLion](https://img.shields.io/badge/멋쟁이사자처럼-14기_해커톤-FF7F00?style=flat-square)]()
+[![Open Track](https://img.shields.io/badge/Open_Track-본선_진출_324팀_참가-FF7F00?style=flat-square)]()
 [![Frontend](https://img.shields.io/badge/Frontend-Repo-green?style=flat-square)](https://github.com/CodeTrace-app/codetrace-frontend)
 
-### 🔗 [서비스 바로가기](https://codetrace-frontend.vercel.app) · [API 문서](https://codetrace-backend-hq4u.onrender.com/docs)
+### 🔗 [서비스 바로가기](https://codetrace.kyeongmin0212.com)
 
 </div>
+
+---
+
+## 노경민 담당: 백엔드 (GitHub 연동·이력 수집·LLM 요약·PR 경고 봇)
+
+> 멋쟁이사자처럼 대학 14기 해커톤 팀 저장소(6인)입니다. 아래는 제가 맡은 부분이고, 그 아래는 팀 공통 README입니다.
+
+| 항목 | 내용 |
+|---|---|
+| 성과 | 멋쟁이사자처럼 대학 14기 해커톤 Open Track 본선 진출 (324팀 참가) |
+| 기간 | 2026.08.10 ~ 08.25 |
+| 인원 | 팀 6인 |
+| 내 담당 | GitHub 연동·이력 수집·LLM 요약·PR 경고 봇 |
+| 기술 | FastAPI, PostgreSQL, SQLAlchemy, tree-sitter, Docker, pytest |
+| 서비스 | https://codetrace.kyeongmin0212.com |
+
+- **GitHub App 연동** — RS256 JWT 인증, 레포 등록·재인덱싱·대시보드 API
+- **이력 수집·근거 연결** — 커밋·PR 이력을 모아 코드 심볼과 연결
+- **LLM 배경 요약** — 코드의 작성 배경을 요약하는 맥락 API, 중간에 멈추면 처리한 곳까지만 반영
+- **PR 경고 봇** — PR 웹훅으로 영향 범위 경고 코멘트, 내부 식별자 대신 파일·행으로 표시
+- **질의 이력·보존** — 질의 이력 조회와 90일 보존 정책
+- **테스트** — 기능마다 테스트를 함께 작성
 
 ---
 
