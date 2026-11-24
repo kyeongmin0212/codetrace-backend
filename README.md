@@ -1,19 +1,8 @@
-<div align="center">
-
 # Code Trace — Backend
 
-### 신입 개발자를 위한 B2B 코드 온보딩 도구
+**신입 개발자를 위한 B2B 코드 온보딩 도구. 코드가 왜 그렇게 작성되었는지(커밋·PR 이력 인덱싱)와 수정 시 영향 범위(구문 트리 파싱)를 보여 줍니다.**
 
-코드가 **왜 그렇게 작성되었는지**(커밋·PR 이력 인덱싱)와
-**수정 시 영향 범위**(구문 트리 파싱)를 보여준다.
-
-[![LikeLion](https://img.shields.io/badge/멋쟁이사자처럼-14기_해커톤-FF7F00?style=flat-square)]()
-[![Open Track](https://img.shields.io/badge/Open_Track-본선_진출_324팀_참가-FF7F00?style=flat-square)]()
-[![Frontend](https://img.shields.io/badge/Frontend-Repo-green?style=flat-square)](https://github.com/CodeTrace-app/codetrace-frontend)
-
-### 🔗 [서비스 바로가기](https://codetrace.kyeongmin0212.com)
-
-</div>
+프런트엔드 저장소: [CodeTrace-app/codetrace-frontend](https://github.com/CodeTrace-app/codetrace-frontend)
 
 ---
 
